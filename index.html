@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <style>
+        body {
+            background-color: #f8f0e3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #333;
+            padding: 50px;
+        }
+        h1 {
+            color: #e74c3c;
+            font-size: 4em;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+        }
+        .heart {
+            font-size: 5em;
+            color: #ff4d4d;
+        }
+        .buttons {
+            margin-top: 40px;
+        }
+        .btn {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #27ae60;
+            color: white;
+        }
+        .no {
+            background-color: #e74c3c;
+            color: white;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Marry Me?</h1>
+    <p class="heart">❤️</p>
+    <p>You are the love of my life, and I can't imagine my future without you. Will you make me the happiest person in the world and marry me?</p>
+    
+    <div class="buttons">
+        <button class="btn yes" onclick="proposalAccepted()">Yes! 💍</button>
+        <button class="btn no" onclick="proposalDeclined()">No... 😢</button>
+    </div>
+
+    <script>
+        function proposalAccepted() {
+            alert("You said Yes! 🎉 I can't wait to spend my life with you!");
+        }
+
+        function proposalDeclined() {
+            alert("Oh no! 😢 I still love you though.");
+        }
+    </script>
+</body>
+</html>
